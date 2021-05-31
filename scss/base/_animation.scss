@@ -1,0 +1,35 @@
+@keyframes transitionAnmateImg {
+  from {
+    transform: none;
+  }
+  to {
+    transform: translate(-45px, 45px);
+  }
+}
+@keyframes transitionAnmateImgMobile {
+  from {
+    transform: none;
+  }
+  to {
+    transform: translate(-20px, 20px);
+  }
+}
+
+@keyframes transitionAnmate {
+  from {
+    transform: none;
+  }
+  to {
+    transform: translateX(-45px);
+  }
+}
+
+@keyframes transitionAnmateMobile {
+    from {
+      transform: none;
+    }
+    to {
+      transform: translateX(-20px);
+    }
+  }
+  

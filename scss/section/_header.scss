@@ -1,0 +1,124 @@
+.header {
+  min-height: 100vh;
+  background: #000;
+  position: relative;
+  // padding-bottom: 750px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  & > .bg-banner {
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      @extend .gr;
+      opacity: 0.78;
+    }
+  }
+
+  &-top {
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: auto;
+    &__socials {
+      &-link {
+        color: $light;
+        font-size: 24px;
+        margin-right: 20px;
+        @extend .time;
+        &:last-child {
+          margin-right: 0;
+        }
+
+        &:hover {
+          color: $primary;
+        }
+      }
+    }
+
+    &__menu {
+      height: 24px;
+      width: 40px;
+      &-icon {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 4px;
+        background: $light;
+
+        &::after,
+        &::before {
+          content: "";
+          position: absolute;
+          right: 0;
+          bottom: -10px;
+          height: 4px;
+          width: 70%;
+          background: $light;
+          transition: all 0.3s linear;
+        }
+
+        &::after {
+          bottom: -20px;
+          width: 100%;
+        }
+      }
+
+      &:hover .header-top__menu-icon {
+        background-color: transparent;
+        &::after,
+        &::before {
+          margin-top: 10px;
+          top: 50%;
+          left: 50%;
+          bottom: initial;
+          width: 100%;
+          transform: translate(-50%, -50%) rotate(315deg);
+        }
+
+        &:after {
+          transform: translate(-50%, -50%) rotate(45deg);
+        }
+      }
+    }
+  }
+
+  &-content {
+    margin-top: -90px;
+    margin-bottom: auto;
+    position: relative;
+    flex-direction: column;
+
+    &__title {
+      font-family: $open100;
+      font-size: 120px;
+      color: $light;
+      line-height: 1;
+    }
+
+    &__subtitle {
+      font-size: 84px;
+      color: $light;
+      font-family: $open100;
+      line-height: 1.5;
+
+      b {
+        font-family: $open700;
+      }
+    }
+
+    &__text {
+      font-size: 24px;
+      line-height: 1;
+      color: $light;
+      font-family: $open100;
+    }
+  }
+}

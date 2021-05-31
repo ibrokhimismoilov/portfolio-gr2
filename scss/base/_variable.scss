@@ -1,0 +1,16 @@
+$light: #fff;
+$dark: #000;
+$primary: #00d7bb;
+$bg-site: #22252c;
+$bg-site-light: lighten(saturate(adjust-hue($bg-site, -4), 1.21), 7.06);
+$bg-dark-side: #141820;
+$textLeft: #01f3a4;
+$textRight: #06f6eb;
+
+$skill-line-bg: #0f1012;
+
+$open100: "Open-Sans Light";
+$open: "Open-Sans";
+$open600: "Open-Sans Semibold";
+$open700: "Open-Sans Bold";
+$open800: "Open-Sans ExtraBold";

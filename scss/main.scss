@@ -1,0 +1,13 @@
+@import "base/variable";
+@import "base/base";
+@import "base/fonts";
+@import "base/btn";
+@import "base/animation";
+
+// sections
+@import "./section/header";
+@import "./section/about";
+@import "./section/timeline";
+@import "./section/skills";
+
+@import "responsive";

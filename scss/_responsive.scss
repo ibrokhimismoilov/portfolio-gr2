@@ -1,0 +1,387 @@
+body {
+  min-width: 320px;
+}
+
+@media (max-width: 1199px) {
+  .section-title {
+    font-size: 32px;
+  }
+
+  .header {
+    &-top {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      &__socials {
+        &-link {
+          font-size: 16px;
+          margin-right: 10px;
+        }
+      }
+    }
+
+    &-content {
+      margin-top: -60px;
+
+      &__title {
+        font-size: calc(16px + 5vw);
+      }
+
+      &__subtitle {
+        font-size: calc(16px + 2vw);
+      }
+
+      &__text {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .about {
+    padding-top: 100px;
+
+    &__img {
+      max-width: 50%;
+      padding: 20px;
+
+      &-inner {
+        width: 100%;
+        height: 100%;
+        max-height: 450px;
+        img {
+          animation: transitionAnmateImgMobile 0.3s linear 1 forwards;
+        }
+      }
+
+      .btn {
+        animation: transitionAnmateMobile 0.3s linear 1 forwards;
+        margin-top: 50px;
+      }
+    }
+
+    &__content {
+      padding: 20px;
+      max-width: 50%;
+
+      &-text {
+        margin-top: 20px;
+      }
+    }
+
+    &__interests {
+      padding-top: 50px;
+      padding-bottom: 90px;
+
+      .section-title {
+        text-align: center;
+      }
+      &-wrapper {
+        padding-top: 50px;
+      }
+
+      &-item {
+        .icon {
+          font-size: 32px;
+          width: 80px;
+          height: 80px;
+        }
+
+        &::after {
+          bottom: -40px;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+
+  .personal {
+    &__item {
+      font-size: 12px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .timeline {
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    .section-title {
+      margin-bottom: 50px;
+    }
+
+    &__wrapper {
+      padding-top: 100px;
+
+      &-item {
+        margin-bottom: 100px;
+      }
+    }
+
+    &__line {
+      width: 3px;
+    }
+  }
+
+  .skills {
+    padding-top: 0px;
+    padding-bottom: 100px;
+    
+    .section-title {
+      margin-bottom: 100px;
+    }
+  
+    &__outer {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    
+    &__wrapper {  
+      &-left,
+      &-right {
+        max-width: calc(50% - 10px);
+      }
+  
+      &-item {
+        .name {
+          font-size: 16px;
+        }
+        .line {
+          margin-top: 10px;
+          height: 3px;
+          &-inner {    
+            &::after {
+              top: -3px;
+              width: 9px;
+              height: 9px;
+            }
+          }
+        }
+      } 
+    }  
+  }
+  
+}
+
+@media (max-width: 767px) {
+  .about {
+    padding-top: 100px;
+    & > .container {
+      flex-direction: column;
+    }
+    &__img {
+      padding: 15px;
+      max-width: 100%;
+
+      &-inner {
+        height: 100%;
+        max-height: initial;
+        img {
+          animation: none;
+        }
+      }
+
+      .btn {
+        animation: none;
+        margin-top: 30px;
+      }
+    }
+
+    &__content {
+      margin-top: 10px;
+      padding: 15px;
+      max-width: 100%;
+
+      &-text {
+        margin-top: 20px;
+      }
+    }
+
+    &__interests {
+      padding-top: 30px;
+      padding-bottom: 60px;
+
+      &-wrapper {
+        padding-top: 25px;
+        justify-content: center;
+      }
+
+      &-item {
+        margin: 5px;
+        .icon {
+          font-size: 18px;
+          width: 40px;
+          height: 40px;
+        }
+
+        &::after {
+          width: initial;
+          bottom: -24px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  .personal {
+    &__item {
+      font-size: 12px;
+      margin-bottom: 10px;
+    }
+  }
+  .skills {
+    padding-bottom: 50px;
+    
+    .section-title {
+      margin-bottom: 30px;
+    }
+  
+    &__outer {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+    
+    &__wrapper {  
+      flex-direction: column;
+      &-left,
+      &-right {
+        max-width: 100%;
+      }
+  
+      &-item {
+        .name {
+          font-size: 16px;
+        }
+        .line {
+          margin-top: 10px;
+          height: 3px;
+          &-inner {    
+            &::after {
+              top: -3px;
+              width: 9px;
+              height: 9px;
+            }
+          }
+        }
+      } 
+    }  
+  }
+}
+
+@media (max-width: 576px) {
+  .about {
+    &__interests {
+      padding-top: 30px;
+      padding-bottom: 60px;
+      padding-left: 10px;
+      padding-right: 10px;
+      align-items: flex-start;
+      &-wrapper {
+        max-width: 320px;
+        width: 100%;
+        justify-content: space-between;
+      }
+      &-item {
+        margin: 0;
+        .icon {
+          font-size: 14px;
+          width: 35px;
+          height: 35px;
+        }
+      }
+    }
+  }
+
+  .timeline {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    .section-title {
+      padding-left: 10px;
+      padding-right: 10px;
+      align-self: flex-start;
+      text-align: left;
+      margin-bottom: 30px;
+    }
+
+    &__wrapper {
+      margin-left: 30px;
+      padding-top: 100px;
+
+      &-item {
+        position: relative;
+        flex-direction: column;
+        margin-bottom: 70px;
+        padding-left: 15px;
+
+        & > div:not(.center) {
+          max-width: 100%;
+        }
+
+        .left {
+          text-align: left !important;
+          h1 {
+            font-size: 24px;
+            line-height: 1.4;
+          }
+          h4 {
+            font-size: 16px;
+            line-height: 1.4;
+          }
+        }
+
+        .right {
+          margin-top: 15px;
+          text-align: left !important;
+          p {
+            font-size: 14px;
+            line-height: 22px;
+          }
+        }
+
+        .center {
+          position: absolute;
+          left: -24px;
+          top: 10px;
+          width: 20px;
+          height: 20px;
+          border: 2px solid $primary;
+          box-shadow: 0 0 0px 5px $bg-site inset, 0 0 0px 10px $primary inset;
+        }
+
+        &.reverse {
+          flex-direction: column;
+          .right {
+            text-align: left;
+          }
+          .left {
+            text-align: left;
+          }
+        }
+      }
+    }
+
+    &__line {
+      left: 0;
+      transform: none;
+      &:after {
+        width: 15px;
+        height: 15px;
+      }
+
+      &-icon {
+        width: 35px;
+        height: 35px;
+        font-size: 12px;
+        border: 2px solid $primary;
+      }
+    }
+
+    &_light {
+      &__wrapper {
+        &-item {
+          .center {
+            box-shadow: 0 0 0px 5px $bg-site-light inset,
+              0 0 0px 10px $primary inset;
+          }
+        }
+      }
+    }
+  }
+}
