@@ -1,6 +1,7 @@
 $light: #fff;
 $dark: #000;
-$primary: #00d7bb;
+// $primary: #00d7bb;
+$primary: red;
 $bg-site: #22252c;
 $bg-site-light: lighten(saturate(adjust-hue($bg-site, -4), 1.21), 7.06);
 $bg-dark-side: #141820;

@@ -112,7 +112,7 @@ a:hover {
 }
 
 .btn-dark {
-  color: #00d7bb;
+  color: red;
   padding: 20px 50px;
   background: #22252c;
 }
@@ -289,7 +289,7 @@ a:hover {
 }
 
 .header-top__socials-link:hover {
-  color: #00d7bb;
+  color: red;
 }
 
 .header-top__menu {
@@ -409,7 +409,7 @@ a:hover {
 }
 
 .about__img-inner {
-  border: 7px #00d7bb solid;
+  border: 7px red solid;
   width: 372px;
   height: 373px;
 }
@@ -477,12 +477,12 @@ a:hover {
 
 .about__interests-item .icon {
   font-size: 40px;
-  color: #00d7bb !important;
+  color: red !important;
   border-radius: 50%;
   position: relative;
   width: 97px;
   height: 97px;
-  border: 1px solid #00d7bb;
+  border: 1px solid red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -565,7 +565,7 @@ a:hover {
 }
 
 .personal__item-inner {
-  color: #00d7bb !important;
+  color: red !important;
   text-transform: uppercase;
 }
 
@@ -621,7 +621,7 @@ a:hover {
 
 .timeline__wrapper-item .left h1 {
   font-size: 27px;
-  color: #00d7bb;
+  color: red;
   text-transform: uppercase;
   font-family: "Open-Sans Semibold";
 }
@@ -643,10 +643,10 @@ a:hover {
 .timeline__wrapper-item .center {
   width: 30px;
   height: 30px;
-  border: 3px solid #00d7bb;
+  border: 3px solid red;
   border-radius: 50%;
-  -webkit-box-shadow: 0 0 0px 8px #22252c inset, 0 0 0px 18px #00d7bb inset;
-          box-shadow: 0 0 0px 8px #22252c inset, 0 0 0px 18px #00d7bb inset;
+  -webkit-box-shadow: 0 0 0px 8px #22252c inset, 0 0 0px 18px red inset;
+          box-shadow: 0 0 0px 8px #22252c inset, 0 0 0px 18px red inset;
 }
 
 .timeline__wrapper-item > .left {
@@ -676,7 +676,7 @@ a:hover {
           transform: translateX(-50%);
   width: 5px;
   height: 100%;
-  background: #00d7bb;
+  background: red;
 }
 
 .timeline__line:after {
@@ -689,7 +689,7 @@ a:hover {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background: #00d7bb;
+  background: red;
 }
 
 .timeline__line-icon {
@@ -710,9 +710,9 @@ a:hover {
   font-size: 18px;
   width: 50px;
   height: 50px;
-  border: 3px solid #00d7bb;
+  border: 3px solid red;
   border-radius: 50%;
-  color: #00d7bb;
+  color: red;
   background: #22252c;
 }
 
@@ -721,8 +721,8 @@ a:hover {
 }
 
 .timeline_light__wrapper-item .center {
-  -webkit-box-shadow: 0 0 0px 8px #313741 inset, 0 0 0px 18px #00d7bb inset;
-          box-shadow: 0 0 0px 8px #313741 inset, 0 0 0px 18px #00d7bb inset;
+  -webkit-box-shadow: 0 0 0px 8px #313741 inset, 0 0 0px 18px red inset;
+          box-shadow: 0 0 0px 8px #313741 inset, 0 0 0px 18px red inset;
 }
 
 .timeline_light__line-icon {
@@ -780,7 +780,7 @@ a:hover {
 
 .skills__wrapper-item .line-inner {
   position: relative;
-  background: #00d7bb;
+  background: red;
   height: 100%;
 }
 
@@ -805,7 +805,7 @@ a:hover {
           box-shadow: 1px 0px 6px 0px #0f1012;
   width: 11px;
   height: 11px;
-  background: #00d7bb;
+  background: red;
   border-radius: 50%;
 }
 
@@ -1105,9 +1105,9 @@ body {
     top: 10px;
     width: 20px;
     height: 20px;
-    border: 2px solid #00d7bb;
-    -webkit-box-shadow: 0 0 0px 5px #22252c inset, 0 0 0px 10px #00d7bb inset;
-            box-shadow: 0 0 0px 5px #22252c inset, 0 0 0px 10px #00d7bb inset;
+    border: 2px solid red;
+    -webkit-box-shadow: 0 0 0px 5px #22252c inset, 0 0 0px 10px red inset;
+            box-shadow: 0 0 0px 5px #22252c inset, 0 0 0px 10px red inset;
   }
   .timeline__wrapper-item.reverse {
     -webkit-box-orient: vertical;
@@ -1134,11 +1134,11 @@ body {
     width: 35px;
     height: 35px;
     font-size: 12px;
-    border: 2px solid #00d7bb;
+    border: 2px solid red;
   }
   .timeline_light__wrapper-item .center {
-    -webkit-box-shadow: 0 0 0px 5px #313741 inset, 0 0 0px 10px #00d7bb inset;
-            box-shadow: 0 0 0px 5px #313741 inset, 0 0 0px 10px #00d7bb inset;
+    -webkit-box-shadow: 0 0 0px 5px #313741 inset, 0 0 0px 10px red inset;
+            box-shadow: 0 0 0px 5px #313741 inset, 0 0 0px 10px red inset;
   }
 }
 /*# sourceMappingURL=main.css.map */
